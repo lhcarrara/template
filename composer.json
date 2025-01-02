@@ -1,0 +1,22 @@
+{
+    "name": "henrique/template",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "scripts":{
+        "server": "php -S localhost:8000 -t public"
+    },
+    "authors": [
+        {
+            "name": "Luis Henrique Carrara",
+            "email": "lhcarrara@gmail.com"
+        }
+    ],
+    "require": {},
+    "config": {
+        "process-timeout": 0
+    }
+}
