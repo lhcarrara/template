@@ -1,10 +1,5 @@
 <?php
 
-ob_start();
+session_start();
 
-require 'home.php';
-
-$content = ob_get_contents();
-ob_end_clean();
-
-var_dump($content);
+require '../vendor/autoload.php';
